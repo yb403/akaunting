@@ -9,7 +9,7 @@
 
 define('LARAVEL_START', microtime(true));
 
-// Check for maintenance
+// Check for maintenance &
 if (file_exists($maintenance = __DIR__ . '/storage/framework/maintenance.php')) {
     require $maintenance;
 }
